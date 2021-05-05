@@ -2,20 +2,20 @@
     "customers": [
       {
         "id": 1,
-        "name": "chamodi",
-        "tp": "123"
+        "name": "Chamodi Hansana",
+        "tp": "0767451026"
 
       },
       {
-        "id": 1,
-        "name": "chamodi",
-        "tp": "123"
+        "id": 2,
+        "name": "Stefa Crishani",
+        "tp": "0764538923"
 
       },
       {
-        "id": 1,
-        "name": "chamodi",
-        "tp": "123"
+        "id": 3,
+        "name": "Nisaja Fernando",
+        "tp": "0784536865"
 
       }
     ]

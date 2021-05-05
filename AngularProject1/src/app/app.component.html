@@ -1,14 +1,38 @@
-<div class="container">
-  <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
-    <ul class="navbar-nav">
-      <li>
-        <a routerLinkActive="active" routerLink="list">List</a>
-      </li>
-      <li>
-        <a routerLinkActive="active" routerLink="create">Create</a>
-      </li>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" >Inventory Control System</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a routerLinkActive="active" routerLink="create">Customer Add</a></li>
     </ul>
-  </nav>
+    <ul class="nav navbar-nav">
+      <li class="active"><a routerLinkActive="active" routerLink="list">Customer List</a></li>
+    </ul>
+    
+        
+    </div>
+      
+</nav>
+<br><br><br>
+
+<div style="left: 40%; top:100px;position: absolute; ">
   <router-outlet></router-outlet>
 </div>
+
+
+</body>
+</html>
 

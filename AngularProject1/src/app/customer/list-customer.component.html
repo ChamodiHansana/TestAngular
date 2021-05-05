@@ -25,7 +25,7 @@
     <table class="table table-bordered" *ngIf="customers && customers.length">
         <thead>
             <tr>
-                
+                <th>ID</th>
                 <th>Name</th>
                 <th>Telephone</th>
                 <th>Action1</th>
@@ -34,16 +34,16 @@
 
         </thead>
         <tbody>
-            <div class="btn-toolbar">
+           
             <tr *ngFor="let customer of customers ">
-               
+                <th>{{customer.id}}</th>
                 <th>{{customer.name}}</th>
                 <th>{{customer.tp}}</th>
                 <th><button classs="btn btn-primary" (click)="editButtonClick(customer.id)">Edit</button></th>
                 <th><button classs="btn btn-primary" >X</button></th>
                 
             </tr>
-            </div>
+           
         </tbody>
     </table>
 </div>

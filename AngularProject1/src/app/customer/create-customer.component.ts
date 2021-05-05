@@ -25,19 +25,20 @@ export class CreateCustomerComponent implements OnInit {
     });
 
     this.route.paramMap.subscribe(params => {
-      const custId =+params.get('id')!
-      if(custId){
-        this.getCustomer(custId);
-      }
+      const custId = +params.get('id')!
+        if(custId) {
+          this.getCustomer(custId);
+        }
       
     });
-  
-     
   }
 
   getCustomer(id: number){
     this.customerService.getCustomer(id).subscribe(
-      (customer: Icustomer) => this.editCustomer(customer),
+      (customer: Icustomer) => {
+        this.editCustomer(customer);
+        
+      },
       (err: any) => console.log(err)
     );
 

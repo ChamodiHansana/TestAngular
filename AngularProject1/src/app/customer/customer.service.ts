@@ -27,7 +27,7 @@ export class CustomerService{
         }
 
     getCustomer(id: number): Observable<Icustomer>{
-        return this.httpClient.get<Icustomer>('${this.baseUrl}/${id}')
+        return this.httpClient.get<Icustomer>('${this.baseUrl}/{$id}')
         .pipe(catchError(this.handleError));
     }
 
