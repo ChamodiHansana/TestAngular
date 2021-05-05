@@ -1,0 +1,20 @@
+<form [formGroup]="customerForm" (ngSubmit)="onSubmit()" >
+  <div class="form-group">
+    <label for="exampleInputEmail1">Name</label>
+    <input type="text" class="form-control" id="name" formControlName="name">
+    
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Telephone</label>
+    <input type="text" class="form-control" id="tp" formControlName="tp">
+   
+  </div>
+  <div class="btn-toolbar">
+      <button type="submit" class="btn btn-primary">Add</button>
+      
+  </div>
+</form>
+
+
+
+ 

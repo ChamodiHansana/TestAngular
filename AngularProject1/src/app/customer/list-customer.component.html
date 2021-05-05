@@ -1,0 +1,51 @@
+<html>
+<head>
+    <style>
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+    
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+    </style>
+</head>
+
+
+<body>
+<div class="table-responsive">
+    <table class="table table-bordered" *ngIf="customers && customers.length">
+        <thead>
+            <tr>
+                
+                <th>Name</th>
+                <th>Telephone</th>
+                <th>Action1</th>
+                <th>Action2</th>
+            </tr>
+
+        </thead>
+        <tbody>
+            <div class="btn-toolbar">
+            <tr *ngFor="let customer of customers ">
+               
+                <th>{{customer.name}}</th>
+                <th>{{customer.tp}}</th>
+                <th><button classs="btn btn-primary" (click)="editButtonClick(customer.id)">Edit</button></th>
+                <th><button classs="btn btn-primary" >X</button></th>
+                
+            </tr>
+            </div>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

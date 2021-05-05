@@ -1,0 +1,22 @@
+{
+    "customers": [
+      {
+        "id": 1,
+        "name": "chamodi",
+        "tp": "123"
+
+      },
+      {
+        "id": 1,
+        "name": "chamodi",
+        "tp": "123"
+
+      },
+      {
+        "id": 1,
+        "name": "chamodi",
+        "tp": "123"
+
+      }
+    ]
+  }
