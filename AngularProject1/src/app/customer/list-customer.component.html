@@ -40,8 +40,8 @@
                 <th>{{customer.name}}</th>
                 <th>{{customer.tp}}</th>
                 <th><button classs="btn btn-primary" (click)="editButtonClick(customer.id)">Edit</button></th>
-                <th><button classs="btn btn-primary" >X</button></th>
-                
+                <th><button classs="btn btn-danger" (click)="deleteButtonClick(customer.id)">Delete</button></th>
+                 
             </tr>
            
         </tbody>

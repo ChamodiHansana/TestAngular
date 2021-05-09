@@ -1,22 +1,14 @@
 {
-    "customers": [
-      {
-        "id": 1,
-        "name": "Chamodi Hansana",
-        "tp": "0767451026"
-
-      },
-      {
-        "id": 2,
-        "name": "Stefa Crishani",
-        "tp": "0764538923"
-
-      },
-      {
-        "id": 3,
-        "name": "Nisaja Fernando",
-        "tp": "0784536865"
-
-      }
-    ]
-  }
+  "customers": [
+    {
+      "id": 1,
+      "name": "Chamodi ",
+      "tp": "0764538923"
+    },
+    {
+      "id": 2,
+      "name": "Stefa Crishani",
+      "tp": "0764538923"
+    }
+  ]
+}
